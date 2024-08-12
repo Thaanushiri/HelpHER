@@ -1,0 +1,102 @@
+/* Main container styling */
+.map-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh; /* Make the container full height of the viewport */
+}
+
+/* Header styling */
+.header {
+  text-align: end-front;
+  margin: 20px 0;
+  margin-left: 180px;
+  color: black;
+  
+}
+
+/* Content container to hold image and map */
+.content-container {
+  display: flex;
+  flex: 1;
+ 
+}
+
+/* Left side (image and form) styling */
+.left-container {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #ccc;
+  overflow-y: auto; /* Add scroll if content overflows */
+}
+
+/* Increase image size */
+.bike-image {
+  margin: 10px;
+  border-radius: 50px;
+  height: 300px;
+  width: 300px;
+}
+
+/* Right side (Google Map) styling */
+.map-iframe-container {
+  flex: 2;
+  padding: 10px;
+  height: 100%; /* Make sure the container takes full height */
+}
+
+.map-iframe-container iframe {
+  width: 100%;
+  height: 100%; /* Make the iframe take full height */
+}
+
+/* Form container styling */
+.form-container {
+  width: 80%; /* Increase form width */
+  max-width: 600px; /* Set a maximum width for the form */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto; /* Center the form horizontally */
+}
+
+/* New user form container styling */
+.user-form-container {
+  width: 80%; /* Increase form width */
+  max-width: 600px; /* Set a maximum width for the form */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto; /* Center the form horizontally */
+}
+
+/* Autocomplete container styling */
+.form-container .autocomplete-container {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Submit button styling */
+.form-container .submit-button,
+.user-form-container .submit-button {
+  width: 100%;
+  font-size: 20px;
+  padding: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.form-container .submit-button:hover,
+.user-form-container .submit-button:hover {
+  background-color: #45a049;
+}

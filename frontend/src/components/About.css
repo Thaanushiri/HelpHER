@@ -1,0 +1,68 @@
+.about-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-header h1 {
+  text-align: center;
+  color: #333;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.about-content h2 {
+  margin-top: 20px;
+  color: #333;
+  font-size: 18px;
+}
+
+.about-content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.founders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.founder {
+  text-align: center;
+  width: calc(50% - 20px); /* Adjust this value to fit your layout */
+  box-sizing: border-box;
+}
+
+.founder-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #fff; /* Optional: Add a border around the circle */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+.founder h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.founder p {
+  margin-top: 5px;
+  color: #777;
+}

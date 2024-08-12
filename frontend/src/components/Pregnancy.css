@@ -1,0 +1,96 @@
+/* Overall background styling */
+.bg {
+    background: linear-gradient(135deg, #f3e5f5, #e8eaf6); /* Light purple gradient */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('C:\Users\thaan\OneDrive\Desktop\Full Stack\myapp\src\assets\pregnancypage.jpg');
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  }
+  
+  /* Glass effect navigation bar styling */
+  .glass-nav {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Grid container styling */
+  .grid {
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  /* Individual doctor card styling */
+  .card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Doctor image styling */
+  .card img {
+    border-radius: 50%;
+    margin-bottom: 16px;
+  }
+  
+  /* Typography adjustments */
+  h6, .MuiTypography-body1 {
+    color: #5c6bc0; /* Soft blue color */
+  }
+  
+  /* WhatsApp icon container styling */
+  .card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .card-icon img {
+    margin-bottom: 8px;
+  }
+  
+  /* Button styling */
+  .MuiButton-root {
+    margin-left: 10px;
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+  /* Typography styling for the main heading */
+  .header {
+    margin-bottom: 20px;
+    color: #5c6bc0;
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 600px) {
+    .card {
+      margin: 10px;
+    }
+  
+    .MuiTypography-h4 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 960px) {
+    .card {
+      margin: 15px;
+    }
+  }
+  

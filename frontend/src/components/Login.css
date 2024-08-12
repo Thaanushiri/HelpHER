@@ -1,0 +1,164 @@
+.login-page {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+    background-image: url('C:\Users\thaan\OneDrive\Desktop\Full Stack\myapp\src\assets\loginpage.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    
+    /* Fix the background image */
+  }
+  
+  .login-container {
+    position: relative; /* Ensure the container is relative to position the pseudo-element */
+    display: flex;
+    flex-direction: column; /* Stack header and form vertically */
+    width: 100%;
+    max-width: 400px;
+    margin-left: 700px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.445); /* Semi-transparent pink */
+
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(232, 229, 229, 0.5); /* Pink shadow */
+    text-align: center; /* Center-align text and elements */
+    overflow: hidden; /* Ensure the pseudo-element does not overflow */
+  }
+  
+  .login-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(242, 239, 239, 0.5); /* Semi-transparent pink */
+    backdrop-filter: blur(10px); /* Apply blur filter */
+    z-index: -1; /* Ensure the pseudo-element is behind the content */
+    border-radius: 8px; /* Match the border-radius of the container */
+  }
+  
+  
+  
+  .login-header {
+    display: flex;
+    align-items: center;
+    justify-content: right; 
+    margin-right: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .login-logo {
+    width: 100px; /* Adjust size as necessary */
+    height: auto;
+    margin-right: 0px; /* Space between logo and heading */
+  }
+  
+  h2 {
+    margin: 0; /* Remove default margin for better alignment */
+    font-size: 50px; /* Adjust font size as necessary */
+    color: #e8e3e3; /* Adjust color as necessary */
+  }
+  
+  .login-form-group {
+    display: flex;
+    flex-direction: row; /* Stack label and input vertically */
+    margin-bottom: 15px;
+    align-items: center; 
+    margin-left: 20px;
+  }
+  
+  .login-form-label {
+    margin-bottom: 5px;
+    margin-right: 20px;
+    color: #f8f3f3; /* Adjust color as necessary */
+    text-align: left; /* Align label text to the left */
+  }
+  
+  .login-form-input {
+    width: 100%; /* Make input take full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+  }
+  
+  .login-forgot-password {
+    color: #e3e5e8;
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-left: 125px;
+  }
+  
+  .login-forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .login-submit-button {
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(56, 56, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+  
+  .login-submit-button:hover {
+    background-color: rgb(34, 34, 145);
+  }
+  
+  .login-signup-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-signup-link p {
+    margin: 0;
+  }
+  
+  .login-signup-link a {
+    color: #c6c8c9;
+    text-decoration: none;
+  }
+  
+  .login-signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-social-login {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-social-login span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login-social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .login-social-icon img {
+    width: 30px; /* Adjust size as necessary */
+    border-radius: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .login-social-icon:hover img {
+    transform: scale(1.3); /* Slightly enlarge icon on hover */
+    opacity: 0.8; /* Slightly fade the icon on hover */
+  }
+  .dont{
+    color:#ccc
+  }

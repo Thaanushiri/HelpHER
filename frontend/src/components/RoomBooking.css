@@ -1,0 +1,71 @@
+.room-booking-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 160px;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .left-container {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+  }
+  
+  .right-container {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .submit-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .image-container {
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .map-iframe-container {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .map-iframe-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  

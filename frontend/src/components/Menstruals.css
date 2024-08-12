@@ -1,0 +1,58 @@
+/* Menstruals.css */
+
+.menstrual-page {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh;
+  padding: 20px;
+  background-color: #ffe4e1; /* Light pink background color */
+  background-image: url('https://www.shutterstock.com/image-photo/menopause-concept-women-symbol-over-260nw-2312058257.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* Optional: add a blur effect to the background */
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px; /* Adjust spacing from the form-container */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form-field {
+  margin-bottom: 20px; /* Adjust spacing as needed */
+  width: 100%;
+}
+
+.calculate-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

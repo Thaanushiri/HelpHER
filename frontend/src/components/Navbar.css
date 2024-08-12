@@ -1,0 +1,51 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: white;
+}
+
+.navbar-brand a {
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin: 0;
+}
+
+.navbar-links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-family: 'Times New Roman', Times, serif;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #f39c12;
+}
+
+.product-hunt {
+  background-color: #e74c3c;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.product-hunt:hover {
+  background-color: #c0392b;
+}
